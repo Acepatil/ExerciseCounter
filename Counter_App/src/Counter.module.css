@@ -1,0 +1,79 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  div {
+    text-align: center;
+    margin: 5%;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  /* Button styles */
+  button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  /* Gradient background for buttons */
+  button:hover {
+    background: linear-gradient(135deg, #ff8a00, #e52e71);
+  }
+  
+  /* Plus button (increment) */
+  button:first-of-type {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+  }
+  
+  /* Save button */
+  button:last-of-type {
+    background: linear-gradient(135deg, #ff512f, #f09819);
+  }
+  
+  /* Mobile responsiveness */
+  @media (max-width: 600px) {
+    div {
+      width: 90%;
+      margin: 0;
+
+    }
+  
+    h1 {
+      font-size: 20px;
+    }
+  
+    button {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  
+    p {
+      font-size: 16px;
+    }
+  }
+  
