@@ -59,13 +59,13 @@ function Counter() {
     }
 
     return (
-        <>
+        <div className='counter'>
             <h1>Counter</h1>
             <p>{count}</p>
             <button onClick={handleInc}>Increment</button>
             <p>{message}</p>
             <button onClick={handleSaveTask}>Save Task</button>
-        </>
+        </div>
     );
 }
 
